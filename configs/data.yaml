@@ -1,0 +1,16 @@
+train: ..\data\data_yolo\images\train
+val: ..\data\data_yolo\images\val
+nc: 4
+names:
+- Glioma
+- Meningioma
+- No Tumor
+- Pituitary
+augmentation:
+  flipud: 0.0
+  fliplr: 0.0
+  mosaic: 0.0
+  mixup: 0.0
+  hsv_h: 0.0
+  hsv_s: 0.0
+  hsv_v: 0.0
