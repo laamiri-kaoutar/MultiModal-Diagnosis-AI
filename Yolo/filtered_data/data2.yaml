@@ -1,0 +1,20 @@
+path: C:\Users\redaj\Desktop\MultiModal-Diagnosis-AI\Yolo\filtered_data
+train: images/train
+val: images/val
+test: images/test
+nc: 4
+names:
+- Glioma
+- Meningioma
+- No Tumor
+- Pituitary
+augment: true
+degrees: 10
+translate: 0.1
+scale: 0.1
+shear: 2.0
+perspective: 0.0
+flipud: 0.0
+fliplr: 0.5
+mosaic: 1
+mixup: 0.5
